@@ -5,9 +5,9 @@ import org.junit.Test;
 
 import com.xminds.main.LeapYear;
 
-public class TestJUnit1 {
+public class TestJUnit3 {
 	@Test
-	public void test1(){
-		Assert.assertEquals(true, LeapYear.isLeap(2000));
+	public void test3(){
+		Assert.assertEquals(true, LeapYear.isLeap(2016));
 	}
 }
